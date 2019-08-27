@@ -33,6 +33,11 @@ app.post('/post_api/:id',(req,res)=>{
         res.json({'id':id,'token':token,'geo':geo}) // used res.json used to print json string on browser
 })
 
+app.post('/post_api',(req,res)=>{
+	const username = req.body.username;
+	res.json({"username":username})
+})
+
 app.listen(4500,()=>{
 	console.log("port running on 4500..");
 })
