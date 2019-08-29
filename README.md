@@ -6,3 +6,7 @@ there is clear difference between param, params, query, body.
 
 Explained the async methods -- series parallel waterfall
 
+refrered this below link ->
+https://medium.com/velotio-perspectives/understanding-node-js-async-flows-parallel-serial-waterfall-and-queues-6f9c4badbc17
+
+
